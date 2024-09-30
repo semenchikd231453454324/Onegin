@@ -1,5 +1,6 @@
-/makefile
-/make.sh
-/onegin.cpp
-/a.exe
-/a.exe.log
+makefile
+make.sh
+onegin.cpp
+a.exe
+a.exe.log
+.vscode

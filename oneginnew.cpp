@@ -11,9 +11,13 @@
 #include "output.h"
 #include "sort.h"
 
+#define TEXT_NAME "sdcsc sdc"
+
+// TODO rename to main.cpp
+
 int main()
 {
-    FILE *MoyText = fopen("MoyText.txt", "r");
+    FILE *MoyText = fopen("MoyText.txt", "r");  // FIXME make define with text filename 
     if (!MoyText)
     {
         printf("pointer moytext failure");
@@ -31,5 +35,7 @@ int main()
     sort(&FileData);
 
     output(&FileData);
+
+    // TODO fclose
 
 }
